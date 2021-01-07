@@ -1,0 +1,94 @@
+@import "_reset";
+@import "_vars";
+@import "_fonts";
+
+body {
+  color: $text-color;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.container-max {
+  max-width: 1440px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.post-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: 'JosefinSans', sans-serif;
+  font-weight: 700;
+}
+
+.aside-title {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'JosefinSans', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 17px;
+  margin-bottom: 25px;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 65px;
+    height: 3px;
+    background-color: $accent-color;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.date {
+  font-size: 12px;
+  line-height: 18px;
+  font-family: 'OpenSans', sans-serif;
+  font-weight: 300;
+  opacity: 54%;
+}
+
+.tag {
+  font-family: 'OpenSans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: $accent-color;
+}
+
+.gold-frame {
+  border: 3px solid $accent-color;;
+}
+
+.svg-icon {
+  width: 17px;
+  height: 17px;
+  fill: $text-color;
+  transition: color .4s ease-in-out, transform .7s;
+
+  &:hover {
+    fill: $accent-color;
+    transform: scale(1.2);
+  }
+}
+
+.decor-font {
+  font-family: 'MrsSheppards', serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+
+
+

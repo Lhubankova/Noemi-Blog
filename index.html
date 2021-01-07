@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Noemi</title>
+    <link rel="icon" href="images/favicon.svg" type="svg" sizes="16x16">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+<header class="header" id="home">
+    <div class="container-max">
+        <nav class="header_nav">
+            <div class="menu-toggle">
+                <svg class="menu-btn" version="1.1" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                     viewBox="0 0 384 448">
+                    <title></title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M384 336v32c0 8.75-7.25 16-16 16h-352c-8.75 0-16-7.25-16-16v-32c0-8.75 7.25-16 16-16h352c8.75 0 16 7.25 16 16zM384 208v32c0 8.75-7.25 16-16 16h-352c-8.75 0-16-7.25-16-16v-32c0-8.75 7.25-16 16-16h352c8.75 0 16 7.25 16 16zM384 80v32c0 8.75-7.25 16-16 16h-352c-8.75 0-16-7.25-16-16v-32c0-8.75 7.25-16 16-16h352c8.75 0 16 7.25 16 16z"></path>
+                </svg>
+                <svg class="close-btn" version="1.1" xmlns="http://www.w3.org/2000/svg" width="35" height="35"
+                     viewBox="0 0 352 448">
+                    <title></title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M324.5 330.5c0 6.25-2.5 12.5-7 17l-34 34c-4.5 4.5-10.75 7-17 7s-12.5-2.5-17-7l-73.5-73.5-73.5 73.5c-4.5 4.5-10.75 7-17 7s-12.5-2.5-17-7l-34-34c-4.5-4.5-7-10.75-7-17s2.5-12.5 7-17l73.5-73.5-73.5-73.5c-4.5-4.5-7-10.75-7-17s2.5-12.5 7-17l34-34c4.5-4.5 10.75-7 17-7s12.5 2.5 17 7l73.5 73.5 73.5-73.5c4.5-4.5 10.75-7 17-7s12.5 2.5 17 7l34 34c4.5 4.5 7 10.75 7 17s-2.5 12.5-7 17l-73.5 73.5 73.5 73.5c4.5 4.5 7 10.75 7 17z"></path>
+                </svg>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">FEATURES</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">POSTTYPES</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">PAGES</a>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link">CATEGORIES</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Beauty</a></li>
+                        <li><a href="#">Health</a></li>
+                        <li><a href="#">Lifestyle</a></li>
+                        <li><a href="#">Music</a></li>
+                        <li><a href="#">Sport</a></li>
+                        <li><a href="#">Yoga</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">CONTACTS</a>
+                </li>
+            </ul>
+        </nav>
+        <ul class="header_socials">
+            <li>
+                <a href="#">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="263" height="448"
+                         viewBox="0 0 263 448">
+                        <title></title>
+                        <g id="icomoon-ignore">
+                        </g>
+                        <path d="M239.75 3v66h-39.25c-30.75 0-36.5 14.75-36.5 36v47.25h73.25l-9.75 74h-63.5v189.75h-76.5v-189.75h-63.75v-74h63.75v-54.5c0-63.25 38.75-97.75 95.25-97.75 27 0 50.25 2 57 3z"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+                         viewBox="0 0 416 448">
+                        <title></title>
+                        <g id="icomoon-ignore">
+                        </g>
+                        <path d="M405 102c-11 16-24.75 30.25-40.5 41.75 0.25 3.5 0.25 7 0.25 10.5 0 106.75-81.25 229.75-229.75 229.75-45.75 0-88.25-13.25-124-36.25 6.5 0.75 12.75 1 19.5 1 37.75 0 72.5-12.75 100.25-34.5-35.5-0.75-65.25-24-75.5-56 5 0.75 10 1.25 15.25 1.25 7.25 0 14.5-1 21.25-2.75-37-7.5-64.75-40-64.75-79.25v-1c10.75 6 23.25 9.75 36.5 10.25-21.75-14.5-36-39.25-36-67.25 0-15 4-28.75 11-40.75 39.75 49 99.5 81 166.5 84.5-1.25-6-2-12.25-2-18.5 0-44.5 36-80.75 80.75-80.75 23.25 0 44.25 9.75 59 25.5 18.25-3.5 35.75-10.25 51.25-19.5-6 18.75-18.75 34.5-35.5 44.5 16.25-1.75 32-6.25 46.5-12.5z"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="384" height="448"
+                         viewBox="0 0 384 448">
+                        <title></title>
+                        <g id="icomoon-ignore">
+                        </g>
+                        <path d="M87.25 156.25v247.75h-82.5v-247.75h82.5zM92.5 79.75c0.25 23.75-17.75 42.75-46.5 42.75v0h-0.5c-27.75 0-45.5-19-45.5-42.75 0-24.25 18.5-42.75 46.5-42.75 28.25 0 45.75 18.5 46 42.75zM384 262v142h-82.25v-132.5c0-33.25-12-56-41.75-56-22.75 0-36.25 15.25-42.25 30-2 5.5-2.75 12.75-2.75 20.25v138.25h-82.25c1-224.5 0-247.75 0-247.75h82.25v36h-0.5c10.75-17 30.25-41.75 74.75-41.75 54.25 0 94.75 35.5 94.75 111.5z"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="384" height="448"
+                         viewBox="0 0 384 448">
+                        <title></title>
+                        <g id="icomoon-ignore">
+                        </g>
+                        <path d="M256 224c0-35.25-28.75-64-64-64s-64 28.75-64 64 28.75 64 64 64 64-28.75 64-64zM290.5 224c0 54.5-44 98.5-98.5 98.5s-98.5-44-98.5-98.5 44-98.5 98.5-98.5 98.5 44 98.5 98.5zM317.5 121.5c0 12.75-10.25 23-23 23s-23-10.25-23-23 10.25-23 23-23 23 10.25 23 23zM192 66.5c-28 0-88-2.25-113.25 7.75-8.75 3.5-15.25 7.75-22 14.5s-11 13.25-14.5 22c-10 25.25-7.75 85.25-7.75 113.25s-2.25 88 7.75 113.25c3.5 8.75 7.75 15.25 14.5 22s13.25 11 22 14.5c25.25 10 85.25 7.75 113.25 7.75s88 2.25 113.25-7.75c8.75-3.5 15.25-7.75 22-14.5s11-13.25 14.5-22c10-25.25 7.75-85.25 7.75-113.25s2.25-88-7.75-113.25c-3.5-8.75-7.75-15.25-14.5-22s-13.25-11-22-14.5c-25.25-10-85.25-7.75-113.25-7.75zM384 224c0 26.5 0.25 52.75-1.25 79.25-1.5 30.75-8.5 58-31 80.5s-49.75 29.5-80.5 31c-26.5 1.5-52.75 1.25-79.25 1.25s-52.75 0.25-79.25-1.25c-30.75-1.5-58-8.5-80.5-31s-29.5-49.75-31-80.5c-1.5-26.5-1.25-52.75-1.25-79.25s-0.25-52.75 1.25-79.25c1.5-30.75 8.5-58 31-80.5s49.75-29.5 80.5-31c26.5-1.5 52.75-1.25 79.25-1.25s52.75-0.25 79.25 1.25c30.75 1.5 58 8.5 80.5 31s29.5 49.75 31 80.5c1.5 26.5 1.25 52.75 1.25 79.25z"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="576" height="448"
+                         viewBox="0 0 576 448">
+                        <title></title>
+                        <g id="icomoon-ignore">
+                        </g>
+                        <path d="M359.25 228.25c0 104.75-70.25 179-176 179-101.25 0-183.25-82-183.25-183.25s82-183.25 183.25-183.25c49.5 0 90.75 18 122.75 48l-49.75 47.75c-13.5-13-37.25-28.25-73-28.25-62.5 0-113.5 51.75-113.5 115.75s51 115.75 113.5 115.75c72.5 0 99.75-52.25 104-79h-104v-63h173c1.75 9.25 3 18.5 3 30.5zM576 197.75v52.5h-52.25v52.25h-52.5v-52.25h-52.25v-52.5h52.25v-52.25h52.5v52.25h52.25z"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+        <div class="header_logo">
+            <img src="images/Noémi-logo.png" alt="logotype">
+        </div>
+    </div>
+</header>
+
+<section class="introduction">
+    <div class="container-max">
+        <div class="cards_wrapper">
+            <div onclick='window.location = "#"' class="card animate-top"
+                 style="background-image: url(images/content-images/bg-1.jpg)">
+                <div class="card_content">
+                    <div class="card_tags">
+                        <a href="#">BEAUTY</a>
+                        <a href="#">HEALTH</a>
+                        <a href="#">LIFESTYLE</a>
+                    </div>
+                    <h3 class="card_title">FROM GRAPEFRUIT TO LEMONS, CITRUS DOES YOU GOOD!</h3>
+                    <div class="card_info">
+                        <span class="card_date"> June 14, 2015</span>
+                        <a href="#" class="card_comments">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="448"
+                                 height="448" viewBox="0 0 448 448">
+                                <title></title>
+                                <g id="icomoon-ignore">
+                                </g>
+                                <path d="M448 224c0 88.5-100.25 160-224 160-12.25 0-24.5-0.75-36.25-2-32.75 29-71.75 49.5-115 60.5-9 2.5-18.75 4.25-28.5 5.5-5.5 0.5-10.75-3.5-12-9.5v-0.25c-1.25-6.25 3-10 6.75-14.5 15.75-17.75 33.75-32.75 45.5-74.5-51.5-29.25-84.5-74.5-84.5-125.25 0-88.25 100.25-160 224-160s224 71.5 224 160z"></path>
+                            </svg>
+                            24</a>
+                    </div>
+                </div>
+            </div>
+            <div onclick='window.location = "#"' class="card animate-top"
+                 style="background-image: url(images/content-images/bg-2.jpg)">
+                <div class="card_content">
+                    <div class="card_tags">
+                        <a href="#">HEALTH</a>
+                    </div>
+                    <h3 class="card_title">5 Tips To Supercharge Your Motivation</h3>
+                    <div class="card_info">
+                        <span class="card_date"> June 14, 2015</span>
+                        <a href="#" class="card_comments">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="448"
+                                 height="448" viewBox="0 0 448 448">
+                                <title></title>
+                                <g id="icomoon-ignore">
+                                </g>
+                                <path d="M448 224c0 88.5-100.25 160-224 160-12.25 0-24.5-0.75-36.25-2-32.75 29-71.75 49.5-115 60.5-9 2.5-18.75 4.25-28.5 5.5-5.5 0.5-10.75-3.5-12-9.5v-0.25c-1.25-6.25 3-10 6.75-14.5 15.75-17.75 33.75-32.75 45.5-74.5-51.5-29.25-84.5-74.5-84.5-125.25 0-88.25 100.25-160 224-160s224 71.5 224 160z"></path>
+                            </svg>
+                            2
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div onclick='window.location = "#"' class="card animate-top"
+                 style="background-image: url(images/content-images/bg-3.jpg)">
+                <div class="card_content">
+                    <div class="card_tags">
+                        <a href="#">BEAUTY</a>
+                    </div>
+                    <h3 class="card_title">To Keep Makeup Looking Fresh Take A Powder</h3>
+                    <div class="card_info">
+                        <span class="card_date"> June 14, 2015</span>
+                        <a href="#" class="card_comments">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="448"
+                                 height="448" viewBox="0 0 448 448">
+                                <title></title>
+                                <g id="icomoon-ignore">
+                                </g>
+                                <path d="M448 224c0 88.5-100.25 160-224 160-12.25 0-24.5-0.75-36.25-2-32.75 29-71.75 49.5-115 60.5-9 2.5-18.75 4.25-28.5 5.5-5.5 0.5-10.75-3.5-12-9.5v-0.25c-1.25-6.25 3-10 6.75-14.5 15.75-17.75 33.75-32.75 45.5-74.5-51.5-29.25-84.5-74.5-84.5-125.25 0-88.25 100.25-160 224-160s224 71.5 224 160z"></path>
+                            </svg>
+                            14
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content">
+    <div class="container">
+        <div class="content_wrapper">
+            <div class="posts-list">
+                <div class="post animate-left-first" onclick='window.location = "#"'>
+                    <img src="images/content-images/post-1.jpg" alt="blog post image">
+                    <div class="post_content">
+                        <div class="post_header">
+                            <div class="header_tags">
+                                <a href="#">ART</a>
+                                <a href="#">HEALTH</a>
+                            </div>
+                            <h3 class="header_title title">Barbecue Party Tips For A Truly Amazing Event</h3>
+                            <div class="header_info">
+                                <span class="header_date"> June 14, 2015</span>
+                                <a href="#" class="header_author">by Author Doe</a>
+                            </div>
+                        </div>
+                        <p class="post_text">
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                            unknown printer took.
+                        </p>
+                        <div class="post_info">
+                            <div class="post_comment">
+                                <a href="#">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="448" height="448"
+                                         viewBox="0 0 448 448">
+                                        <title></title>
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path d="M224 96c-104 0-192 58.5-192 128 0 37.25 25 72.75 68.25 97.25l21.75 12.5-6.75 24c-4.75 17.75-11 31.5-17.5 43 25.25-10.5 48.25-24.75 68.75-42.75l10.75-9.5 14.25 1.5c10.75 1.25 21.75 2 32.5 2 104 0 192-58.5 192-128s-88-128-192-128zM448 224c0 88.5-100.25 160-224 160-12.25 0-24.5-0.75-36.25-2-32.75 29-71.75 49.5-115 60.5-9 2.5-18.75 4.25-28.5 5.5h-1.25c-5 0-9.5-4-10.75-9.5v-0.25c-1.25-6.25 3-10 6.75-14.5 15.75-17.75 33.75-32.75 45.5-74.5-51.5-29.25-84.5-74.5-84.5-125.25 0-88.5 100.25-160 224-160v0c123.75 0 224 71.5 224 160z"></path>
+                                    </svg>
+                                    24
+                                </a>
+                            </div>
+                            <ul class="post_socials">
+                                <li>Share</li>
+                                <li>
+                                    <a href="#">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="263" height="448"
+                                             viewBox="0 0 263 448">
+                                            <title></title>
+                                            <g id="icomoon-ignore">
+                                            </g>
+                                            <path d="M239.75 3v66h-39.25c-30.75 0-36.5 14.75-36.5 36v47.25h73.25l-9.75 74h-63.5v189.75h-76.5v-189.75h-63.75v-74h63.75v-54.5c0-63.25 38.75-97.75 95.25-97.75 27 0 50.25 2 57 3z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="384" height="448"
+                                             viewBox="0 0 384 448">
+                                            <title></title>
+                                            <g id="icomoon-ignore">
+                                            </g>
+                                            <path d="M384 224c0 106-86 192-192 192-19 0-37-2.75-54.5-8 7.25-11.5 15.5-26.25 19.5-41 0 0 2.25-8.5 13.5-52.75 6.5 12.75 26 24 46.75 24 61.75 0 103.75-56.25 103.75-131.75 0-56.75-48.25-110-121.75-110-91 0-137 65.5-137 120 0 33 12.5 62.5 39.25 73.5 4.25 1.75 8.25 0 9.5-5 1-3.25 3-11.75 4-15.25 1.25-5 0.75-6.5-2.75-10.75-7.75-9.25-12.75-21-12.75-37.75 0-48.5 36.25-92 94.5-92 51.5 0 80 31.5 80 73.75 0 55.25-24.5 102-61 102-20 0-35-16.5-30.25-37 5.75-24.25 17-50.5 17-68 0-15.75-8.5-29-26-29-20.5 0-37 21.25-37 49.75 0 0 0 18.25 6.25 30.5-21 89-24.75 104.5-24.75 104.5-3.5 14.5-3.75 30.75-3.25 44.25-67.75-29.75-115-97.25-115-176 0-106 86-192 192-192s192 86 192 192z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+                                             viewBox="0 0 416 448">
+                                            <title></title>
+                                            <g id="icomoon-ignore">
+                                            </g>
+                                            <path d="M405 102c-11 16-24.75 30.25-40.5 41.75 0.25 3.5 0.25 7 0.25 10.5 0 106.75-81.25 229.75-229.75 229.75-45.75 0-88.25-13.25-124-36.25 6.5 0.75 12.75 1 19.5 1 37.75 0 72.5-12.75 100.25-34.5-35.5-0.75-65.25-24-75.5-56 5 0.75 10 1.25 15.25 1.25 7.25 0 14.5-1 21.25-2.75-37-7.5-64.75-40-64.75-79.25v-1c10.75 6 23.25 9.75 36.5 10.25-21.75-14.5-36-39.25-36-67.25 0-15 4-28.75 11-40.75 39.75 49 99.5 81 166.5 84.5-1.25-6-2-12.25-2-18.5 0-44.5 36-80.75 80.75-80.75 23.25 0 44.25 9.75 59 25.5 18.25-3.5 35.75-10.25 51.25-19.5-6 18.75-18.75 34.5-35.5 44.5 16.25-1.75 32-6.25 46.5-12.5z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="post animate-left" onclick='window.location = "#"'>
+                    <img src="images/content-images/post-2.jpg" alt="blog post image">
+                    <div class="post_content">
+                        <div class="post_header">
+                            <div class="header_tags">
+                                <a href="#">ART</a>
+                            </div>
+                            <h3 class="header_title title">The Principles Of Scientific Cooking</h3>
+                            <div class="header_info">
+                                <span class="header_date"> June 14, 2015</span>
+                                <a href="#" class="header_author">by Author Doe</a>
+                            </div>
+                        </div>
+                        <p class="post_text">
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                            unknown printer took.
+                        </p>
+                        <div class="post_info">
+                            <div class="post_comment">
+                                <a href="#">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="448" height="448"
+                                         viewBox="0 0 448 448">
+                                        <title></title>
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path d="M224 96c-104 0-192 58.5-192 128 0 37.25 25 72.75 68.25 97.25l21.75 12.5-6.75 24c-4.75 17.75-11 31.5-17.5 43 25.25-10.5 48.25-24.75 68.75-42.75l10.75-9.5 14.25 1.5c10.75 1.25 21.75 2 32.5 2 104 0 192-58.5 192-128s-88-128-192-128zM448 224c0 88.5-100.25 160-224 160-12.25 0-24.5-0.75-36.25-2-32.75 29-71.75 49.5-115 60.5-9 2.5-18.75 4.25-28.5 5.5h-1.25c-5 0-9.5-4-10.75-9.5v-0.25c-1.25-6.25 3-10 6.75-14.5 15.75-17.75 33.75-32.75 45.5-74.5-51.5-29.25-84.5-74.5-84.5-125.25 0-88.5 100.25-160 224-160v0c123.75 0 224 71.5 224 160z"></path>
+                                    </svg>
+                                    17
+                                </a>
+                            </div>
+                            <ul class="post_socials">
+                                <li>Share</li>
+                                <li>
+                                    <a href="#">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="263" height="448"
+                                             viewBox="0 0 263 448">
+                                            <title></title>
+                                            <g id="icomoon-ignore">
+                                            </g>
+                                            <path d="M239.75 3v66h-39.25c-30.75 0-36.5 14.75-36.5 36v47.25h73.25l-9.75 74h-63.5v189.75h-76.5v-189.75h-63.75v-74h63.75v-54.5c0-63.25 38.75-97.75 95.25-97.75 27 0 50.25 2 57 3z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="384" height="448"
+                                             viewBox="0 0 384 448">
+                                            <title></title>
+                                            <g id="icomoon-ignore">
+                                            </g>
+                                            <path d="M384 224c0 106-86 192-192 192-19 0-37-2.75-54.5-8 7.25-11.5 15.5-26.25 19.5-41 0 0 2.25-8.5 13.5-52.75 6.5 12.75 26 24 46.75 24 61.75 0 103.75-56.25 103.75-131.75 0-56.75-48.25-110-121.75-110-91 0-137 65.5-137 120 0 33 12.5 62.5 39.25 73.5 4.25 1.75 8.25 0 9.5-5 1-3.25 3-11.75 4-15.25 1.25-5 0.75-6.5-2.75-10.75-7.75-9.25-12.75-21-12.75-37.75 0-48.5 36.25-92 94.5-92 51.5 0 80 31.5 80 73.75 0 55.25-24.5 102-61 102-20 0-35-16.5-30.25-37 5.75-24.25 17-50.5 17-68 0-15.75-8.5-29-26-29-20.5 0-37 21.25-37 49.75 0 0 0 18.25 6.25 30.5-21 89-24.75 104.5-24.75 104.5-3.5 14.5-3.75 30.75-3.25 44.25-67.75-29.75-115-97.25-115-176 0-106 86-192 192-192s192 86 192 192z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+                                             viewBox="0 0 416 448">
+                                            <title></title>
+                                            <g id="icomoon-ignore">
+                                            </g>
+                                            <path d="M405 102c-11 16-24.75 30.25-40.5 41.75 0.25 3.5 0.25 7 0.25 10.5 0 106.75-81.25 229.75-229.75 229.75-45.75 0-88.25-13.25-124-36.25 6.5 0.75 12.75 1 19.5 1 37.75 0 72.5-12.75 100.25-34.5-35.5-0.75-65.25-24-75.5-56 5 0.75 10 1.25 15.25 1.25 7.25 0 14.5-1 21.25-2.75-37-7.5-64.75-40-64.75-79.25v-1c10.75 6 23.25 9.75 36.5 10.25-21.75-14.5-36-39.25-36-67.25 0-15 4-28.75 11-40.75 39.75 49 99.5 81 166.5 84.5-1.25-6-2-12.25-2-18.5 0-44.5 36-80.75 80.75-80.75 23.25 0 44.25 9.75 59 25.5 18.25-3.5 35.75-10.25 51.25-19.5-6 18.75-18.75 34.5-35.5 44.5 16.25-1.75 32-6.25 46.5-12.5z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="post animate-left" onclick='window.location = "#"'>
+                    <img src="images/content-images/post-3.jpg" alt="blog post image">
+                    <div class="post_content">
+                        <div class="post_header">
+                            <div class="header_tags">
+                                <a href="#">ART</a>
+                                <a href="#">HEALTH</a>
+                                <a href="#">LIFESTYLE</a>
+                            </div>
+                            <h3 class="header_title title">How To Meet That Special Someone</h3>
+                            <div class="header_info">
+                                <span class="header_date"> June 14, 2015</span>
+                                <a href="#" class="header_author">by Author Doe</a>
+                            </div>
+                        </div>
+                        <p class="post_text">
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                            unknown printer took.
+                        </p>
+                        <div class="post_info">
+                            <div class="post_comment">
+                                <a href="#">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="448" height="448"
+                                         viewBox="0 0 448 448">
+                                        <title></title>
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path d="M224 96c-104 0-192 58.5-192 128 0 37.25 25 72.75 68.25 97.25l21.75 12.5-6.75 24c-4.75 17.75-11 31.5-17.5 43 25.25-10.5 48.25-24.75 68.75-42.75l10.75-9.5 14.25 1.5c10.75 1.25 21.75 2 32.5 2 104 0 192-58.5 192-128s-88-128-192-128zM448 224c0 88.5-100.25 160-224 160-12.25 0-24.5-0.75-36.25-2-32.75 29-71.75 49.5-115 60.5-9 2.5-18.75 4.25-28.5 5.5h-1.25c-5 0-9.5-4-10.75-9.5v-0.25c-1.25-6.25 3-10 6.75-14.5 15.75-17.75 33.75-32.75 45.5-74.5-51.5-29.25-84.5-74.5-84.5-125.25 0-88.5 100.25-160 224-160v0c123.75 0 224 71.5 224 160z"></path>
+                                    </svg>
+                                    14
+                                </a>
+                            </div>
+                            <ul class="post_socials">
+                                <li>Share</li>
+                                <li>
+                                    <a href="#">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="263" height="448"
+                                             viewBox="0 0 263 448">
+                                            <title></title>
+                                            <g id="icomoon-ignore">
+                                            </g>
+                                            <path d="M239.75 3v66h-39.25c-30.75 0-36.5 14.75-36.5 36v47.25h73.25l-9.75 74h-63.5v189.75h-76.5v-189.75h-63.75v-74h63.75v-54.5c0-63.25 38.75-97.75 95.25-97.75 27 0 50.25 2 57 3z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="384" height="448"
+                                             viewBox="0 0 384 448">
+                                            <title></title>
+                                            <g id="icomoon-ignore">
+                                            </g>
+                                            <path d="M384 224c0 106-86 192-192 192-19 0-37-2.75-54.5-8 7.25-11.5 15.5-26.25 19.5-41 0 0 2.25-8.5 13.5-52.75 6.5 12.75 26 24 46.75 24 61.75 0 103.75-56.25 103.75-131.75 0-56.75-48.25-110-121.75-110-91 0-137 65.5-137 120 0 33 12.5 62.5 39.25 73.5 4.25 1.75 8.25 0 9.5-5 1-3.25 3-11.75 4-15.25 1.25-5 0.75-6.5-2.75-10.75-7.75-9.25-12.75-21-12.75-37.75 0-48.5 36.25-92 94.5-92 51.5 0 80 31.5 80 73.75 0 55.25-24.5 102-61 102-20 0-35-16.5-30.25-37 5.75-24.25 17-50.5 17-68 0-15.75-8.5-29-26-29-20.5 0-37 21.25-37 49.75 0 0 0 18.25 6.25 30.5-21 89-24.75 104.5-24.75 104.5-3.5 14.5-3.75 30.75-3.25 44.25-67.75-29.75-115-97.25-115-176 0-106 86-192 192-192s192 86 192 192z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+                                             viewBox="0 0 416 448">
+                                            <title></title>
+                                            <g id="icomoon-ignore">
+                                            </g>
+                                            <path d="M405 102c-11 16-24.75 30.25-40.5 41.75 0.25 3.5 0.25 7 0.25 10.5 0 106.75-81.25 229.75-229.75 229.75-45.75 0-88.25-13.25-124-36.25 6.5 0.75 12.75 1 19.5 1 37.75 0 72.5-12.75 100.25-34.5-35.5-0.75-65.25-24-75.5-56 5 0.75 10 1.25 15.25 1.25 7.25 0 14.5-1 21.25-2.75-37-7.5-64.75-40-64.75-79.25v-1c10.75 6 23.25 9.75 36.5 10.25-21.75-14.5-36-39.25-36-67.25 0-15 4-28.75 11-40.75 39.75 49 99.5 81 166.5 84.5-1.25-6-2-12.25-2-18.5 0-44.5 36-80.75 80.75-80.75 23.25 0 44.25 9.75 59 25.5 18.25-3.5 35.75-10.25 51.25-19.5-6 18.75-18.75 34.5-35.5 44.5 16.25-1.75 32-6.25 46.5-12.5z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="post animate-left" onclick='window.location = "#"'>
+                    <img src="images/content-images/post-4.jpg" alt="blog post image">
+                    <div class="post_content">
+                        <div class="post_header">
+                            <div class="header_tags">
+                                <a href="#">ART</a>
+                                <a href="#">HEALTH</a>
+                            </div>
+                            <h3 class="header_title title">Barbecue Party Tips For A Truly Amazing Event</h3>
+                            <div class="header_info">
+                                <span class="header_date"> June 14, 2015</span>
+                                <a href="#" class="header_author">by Author Doe</a>
+                            </div>
+                        </div>
+                        <p class="post_text">
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                            unknown printer took.
+                        </p>
+                        <div class="post_info">
+                            <div class="post_comment">
+                                <a href="#">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="448" height="448"
+                                         viewBox="0 0 448 448">
+                                        <title></title>
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path d="M224 96c-104 0-192 58.5-192 128 0 37.25 25 72.75 68.25 97.25l21.75 12.5-6.75 24c-4.75 17.75-11 31.5-17.5 43 25.25-10.5 48.25-24.75 68.75-42.75l10.75-9.5 14.25 1.5c10.75 1.25 21.75 2 32.5 2 104 0 192-58.5 192-128s-88-128-192-128zM448 224c0 88.5-100.25 160-224 160-12.25 0-24.5-0.75-36.25-2-32.75 29-71.75 49.5-115 60.5-9 2.5-18.75 4.25-28.5 5.5h-1.25c-5 0-9.5-4-10.75-9.5v-0.25c-1.25-6.25 3-10 6.75-14.5 15.75-17.75 33.75-32.75 45.5-74.5-51.5-29.25-84.5-74.5-84.5-125.25 0-88.5 100.25-160 224-160v0c123.75 0 224 71.5 224 160z"></path>
+                                    </svg>
+                                    24
+                                </a>
+                            </div>
+                            <ul class="post_socials">
+                                <li>Share</li>
+                                <li>
+                                    <a href="#">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="263" height="448"
+                                             viewBox="0 0 263 448">
+                                            <title></title>
+                                            <g id="icomoon-ignore">
+                                            </g>
+                                            <path d="M239.75 3v66h-39.25c-30.75 0-36.5 14.75-36.5 36v47.25h73.25l-9.75 74h-63.5v189.75h-76.5v-189.75h-63.75v-74h63.75v-54.5c0-63.25 38.75-97.75 95.25-97.75 27 0 50.25 2 57 3z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="384" height="448"
+                                             viewBox="0 0 384 448">
+                                            <title></title>
+                                            <g id="icomoon-ignore">
+                                            </g>
+                                            <path d="M384 224c0 106-86 192-192 192-19 0-37-2.75-54.5-8 7.25-11.5 15.5-26.25 19.5-41 0 0 2.25-8.5 13.5-52.75 6.5 12.75 26 24 46.75 24 61.75 0 103.75-56.25 103.75-131.75 0-56.75-48.25-110-121.75-110-91 0-137 65.5-137 120 0 33 12.5 62.5 39.25 73.5 4.25 1.75 8.25 0 9.5-5 1-3.25 3-11.75 4-15.25 1.25-5 0.75-6.5-2.75-10.75-7.75-9.25-12.75-21-12.75-37.75 0-48.5 36.25-92 94.5-92 51.5 0 80 31.5 80 73.75 0 55.25-24.5 102-61 102-20 0-35-16.5-30.25-37 5.75-24.25 17-50.5 17-68 0-15.75-8.5-29-26-29-20.5 0-37 21.25-37 49.75 0 0 0 18.25 6.25 30.5-21 89-24.75 104.5-24.75 104.5-3.5 14.5-3.75 30.75-3.25 44.25-67.75-29.75-115-97.25-115-176 0-106 86-192 192-192s192 86 192 192z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+                                             viewBox="0 0 416 448">
+                                            <title></title>
+                                            <g id="icomoon-ignore">
+                                            </g>
+                                            <path d="M405 102c-11 16-24.75 30.25-40.5 41.75 0.25 3.5 0.25 7 0.25 10.5 0 106.75-81.25 229.75-229.75 229.75-45.75 0-88.25-13.25-124-36.25 6.5 0.75 12.75 1 19.5 1 37.75 0 72.5-12.75 100.25-34.5-35.5-0.75-65.25-24-75.5-56 5 0.75 10 1.25 15.25 1.25 7.25 0 14.5-1 21.25-2.75-37-7.5-64.75-40-64.75-79.25v-1c10.75 6 23.25 9.75 36.5 10.25-21.75-14.5-36-39.25-36-67.25 0-15 4-28.75 11-40.75 39.75 49 99.5 81 166.5 84.5-1.25-6-2-12.25-2-18.5 0-44.5 36-80.75 80.75-80.75 23.25 0 44.25 9.75 59 25.5 18.25-3.5 35.75-10.25 51.25-19.5-6 18.75-18.75 34.5-35.5 44.5 16.25-1.75 32-6.25 46.5-12.5z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="post animate-left" onclick='window.location = "#"'>
+                    <img src="images/content-images/post-5.jpg" alt="blog post image">
+                    <div class="post_content">
+                        <div class="post_header">
+                            <div class="header_tags">
+                                <a href="#">ART</a>
+                            </div>
+                            <h3 class="header_title title">The Principles Of Scientific Cooking</h3>
+                            <div class="header_info">
+                                <span class="header_date"> June 14, 2015</span>
+                                <a href="#" class="header_author">by Author Doe</a>
+                            </div>
+                        </div>
+                        <p class="post_text">
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                            unknown printer took.
+                        </p>
+                        <div class="post_info">
+                            <div class="post_comment">
+                                <a href="#">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="448" height="448"
+                                         viewBox="0 0 448 448">
+                                        <title></title>
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path d="M224 96c-104 0-192 58.5-192 128 0 37.25 25 72.75 68.25 97.25l21.75 12.5-6.75 24c-4.75 17.75-11 31.5-17.5 43 25.25-10.5 48.25-24.75 68.75-42.75l10.75-9.5 14.25 1.5c10.75 1.25 21.75 2 32.5 2 104 0 192-58.5 192-128s-88-128-192-128zM448 224c0 88.5-100.25 160-224 160-12.25 0-24.5-0.75-36.25-2-32.75 29-71.75 49.5-115 60.5-9 2.5-18.75 4.25-28.5 5.5h-1.25c-5 0-9.5-4-10.75-9.5v-0.25c-1.25-6.25 3-10 6.75-14.5 15.75-17.75 33.75-32.75 45.5-74.5-51.5-29.25-84.5-74.5-84.5-125.25 0-88.5 100.25-160 224-160v0c123.75 0 224 71.5 224 160z"></path>
+                                    </svg>
+                                    17
+                                </a>
+                            </div>
+                            <ul class="post_socials">
+                                <li>Share</li>
+                                <li>
+                                    <a href="#">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="263" height="448"
+                                             viewBox="0 0 263 448">
+                                            <title></title>
+                                            <g id="icomoon-ignore">
+                                            </g>
+                                            <path d="M239.75 3v66h-39.25c-30.75 0-36.5 14.75-36.5 36v47.25h73.25l-9.75 74h-63.5v189.75h-76.5v-189.75h-63.75v-74h63.75v-54.5c0-63.25 38.75-97.75 95.25-97.75 27 0 50.25 2 57 3z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="384" height="448"
+                                             viewBox="0 0 384 448">
+                                            <title></title>
+                                            <g id="icomoon-ignore">
+                                            </g>
+                                            <path d="M384 224c0 106-86 192-192 192-19 0-37-2.75-54.5-8 7.25-11.5 15.5-26.25 19.5-41 0 0 2.25-8.5 13.5-52.75 6.5 12.75 26 24 46.75 24 61.75 0 103.75-56.25 103.75-131.75 0-56.75-48.25-110-121.75-110-91 0-137 65.5-137 120 0 33 12.5 62.5 39.25 73.5 4.25 1.75 8.25 0 9.5-5 1-3.25 3-11.75 4-15.25 1.25-5 0.75-6.5-2.75-10.75-7.75-9.25-12.75-21-12.75-37.75 0-48.5 36.25-92 94.5-92 51.5 0 80 31.5 80 73.75 0 55.25-24.5 102-61 102-20 0-35-16.5-30.25-37 5.75-24.25 17-50.5 17-68 0-15.75-8.5-29-26-29-20.5 0-37 21.25-37 49.75 0 0 0 18.25 6.25 30.5-21 89-24.75 104.5-24.75 104.5-3.5 14.5-3.75 30.75-3.25 44.25-67.75-29.75-115-97.25-115-176 0-106 86-192 192-192s192 86 192 192z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+                                             viewBox="0 0 416 448">
+                                            <title></title>
+                                            <g id="icomoon-ignore">
+                                            </g>
+                                            <path d="M405 102c-11 16-24.75 30.25-40.5 41.75 0.25 3.5 0.25 7 0.25 10.5 0 106.75-81.25 229.75-229.75 229.75-45.75 0-88.25-13.25-124-36.25 6.5 0.75 12.75 1 19.5 1 37.75 0 72.5-12.75 100.25-34.5-35.5-0.75-65.25-24-75.5-56 5 0.75 10 1.25 15.25 1.25 7.25 0 14.5-1 21.25-2.75-37-7.5-64.75-40-64.75-79.25v-1c10.75 6 23.25 9.75 36.5 10.25-21.75-14.5-36-39.25-36-67.25 0-15 4-28.75 11-40.75 39.75 49 99.5 81 166.5 84.5-1.25-6-2-12.25-2-18.5 0-44.5 36-80.75 80.75-80.75 23.25 0 44.25 9.75 59 25.5 18.25-3.5 35.75-10.25 51.25-19.5-6 18.75-18.75 34.5-35.5 44.5 16.25-1.75 32-6.25 46.5-12.5z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="post animate-left" onclick='window.location = "#"'>
+                    <img src="images/content-images/post-2.jpg" alt="blog post image">
+                    <div class="post_content">
+                        <div class="post_header">
+                            <div class="header_tags">
+                                <a href="#">ART</a>
+                            </div>
+                            <h3 class="header_title title">The Principles Of Scientific Cooking</h3>
+                            <div class="header_info">
+                                <span class="header_date"> June 14, 2015</span>
+                                <a href="#" class="header_author">by Author Doe</a>
+                            </div>
+                        </div>
+                        <p class="post_text">
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                            unknown printer took.
+                        </p>
+                        <div class="post_info">
+                            <div class="post_comment">
+                                <a href="#">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="448" height="448"
+                                         viewBox="0 0 448 448">
+                                        <title></title>
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path d="M224 96c-104 0-192 58.5-192 128 0 37.25 25 72.75 68.25 97.25l21.75 12.5-6.75 24c-4.75 17.75-11 31.5-17.5 43 25.25-10.5 48.25-24.75 68.75-42.75l10.75-9.5 14.25 1.5c10.75 1.25 21.75 2 32.5 2 104 0 192-58.5 192-128s-88-128-192-128zM448 224c0 88.5-100.25 160-224 160-12.25 0-24.5-0.75-36.25-2-32.75 29-71.75 49.5-115 60.5-9 2.5-18.75 4.25-28.5 5.5h-1.25c-5 0-9.5-4-10.75-9.5v-0.25c-1.25-6.25 3-10 6.75-14.5 15.75-17.75 33.75-32.75 45.5-74.5-51.5-29.25-84.5-74.5-84.5-125.25 0-88.5 100.25-160 224-160v0c123.75 0 224 71.5 224 160z"></path>
+                                    </svg>
+                                    17
+                                </a>
+                            </div>
+                            <ul class="post_socials">
+                                <li>Share</li>
+                                <li>
+                                    <a href="#">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="263" height="448"
+                                             viewBox="0 0 263 448">
+                                            <title></title>
+                                            <g id="icomoon-ignore">
+                                            </g>
+                                            <path d="M239.75 3v66h-39.25c-30.75 0-36.5 14.75-36.5 36v47.25h73.25l-9.75 74h-63.5v189.75h-76.5v-189.75h-63.75v-74h63.75v-54.5c0-63.25 38.75-97.75 95.25-97.75 27 0 50.25 2 57 3z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="384" height="448"
+                                             viewBox="0 0 384 448">
+                                            <title></title>
+                                            <g id="icomoon-ignore">
+                                            </g>
+                                            <path d="M384 224c0 106-86 192-192 192-19 0-37-2.75-54.5-8 7.25-11.5 15.5-26.25 19.5-41 0 0 2.25-8.5 13.5-52.75 6.5 12.75 26 24 46.75 24 61.75 0 103.75-56.25 103.75-131.75 0-56.75-48.25-110-121.75-110-91 0-137 65.5-137 120 0 33 12.5 62.5 39.25 73.5 4.25 1.75 8.25 0 9.5-5 1-3.25 3-11.75 4-15.25 1.25-5 0.75-6.5-2.75-10.75-7.75-9.25-12.75-21-12.75-37.75 0-48.5 36.25-92 94.5-92 51.5 0 80 31.5 80 73.75 0 55.25-24.5 102-61 102-20 0-35-16.5-30.25-37 5.75-24.25 17-50.5 17-68 0-15.75-8.5-29-26-29-20.5 0-37 21.25-37 49.75 0 0 0 18.25 6.25 30.5-21 89-24.75 104.5-24.75 104.5-3.5 14.5-3.75 30.75-3.25 44.25-67.75-29.75-115-97.25-115-176 0-106 86-192 192-192s192 86 192 192z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+                                             viewBox="0 0 416 448">
+                                            <title></title>
+                                            <g id="icomoon-ignore">
+                                            </g>
+                                            <path d="M405 102c-11 16-24.75 30.25-40.5 41.75 0.25 3.5 0.25 7 0.25 10.5 0 106.75-81.25 229.75-229.75 229.75-45.75 0-88.25-13.25-124-36.25 6.5 0.75 12.75 1 19.5 1 37.75 0 72.5-12.75 100.25-34.5-35.5-0.75-65.25-24-75.5-56 5 0.75 10 1.25 15.25 1.25 7.25 0 14.5-1 21.25-2.75-37-7.5-64.75-40-64.75-79.25v-1c10.75 6 23.25 9.75 36.5 10.25-21.75-14.5-36-39.25-36-67.25 0-15 4-28.75 11-40.75 39.75 49 99.5 81 166.5 84.5-1.25-6-2-12.25-2-18.5 0-44.5 36-80.75 80.75-80.75 23.25 0 44.25 9.75 59 25.5 18.25-3.5 35.75-10.25 51.25-19.5-6 18.75-18.75 34.5-35.5 44.5 16.25-1.75 32-6.25 46.5-12.5z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="post animate-left" onclick='window.location = "#"'>
+                    <img src="images/content-images/post-6.jpg" alt="blog post image">
+                    <div class="post_content">
+                        <div class="post_header">
+                            <div class="header_tags">
+                                <a href="#">ART</a>
+                                <a href="#">HEALTH</a>
+                                <a href="#">LIFESTYLE</a>
+                            </div>
+                            <h3 class="header_title title">How To Meet That Special Someone</h3>
+                            <div class="header_info">
+                                <span class="header_date"> June 14, 2015</span>
+                                <a href="#" class="header_author">by Author Doe</a>
+                            </div>
+                        </div>
+                        <p class="post_text">
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                            unknown printer took.
+                        </p>
+                        <div class="post_info">
+                            <div class="post_comment">
+                                <a href="#">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="448" height="448"
+                                         viewBox="0 0 448 448">
+                                        <title></title>
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path d="M224 96c-104 0-192 58.5-192 128 0 37.25 25 72.75 68.25 97.25l21.75 12.5-6.75 24c-4.75 17.75-11 31.5-17.5 43 25.25-10.5 48.25-24.75 68.75-42.75l10.75-9.5 14.25 1.5c10.75 1.25 21.75 2 32.5 2 104 0 192-58.5 192-128s-88-128-192-128zM448 224c0 88.5-100.25 160-224 160-12.25 0-24.5-0.75-36.25-2-32.75 29-71.75 49.5-115 60.5-9 2.5-18.75 4.25-28.5 5.5h-1.25c-5 0-9.5-4-10.75-9.5v-0.25c-1.25-6.25 3-10 6.75-14.5 15.75-17.75 33.75-32.75 45.5-74.5-51.5-29.25-84.5-74.5-84.5-125.25 0-88.5 100.25-160 224-160v0c123.75 0 224 71.5 224 160z"></path>
+                                    </svg>
+                                    14
+                                </a>
+                            </div>
+                            <ul class="post_socials">
+                                <li>Share</li>
+                                <li>
+                                    <a href="#">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="263" height="448"
+                                             viewBox="0 0 263 448">
+                                            <title></title>
+                                            <g id="icomoon-ignore">
+                                            </g>
+                                            <path d="M239.75 3v66h-39.25c-30.75 0-36.5 14.75-36.5 36v47.25h73.25l-9.75 74h-63.5v189.75h-76.5v-189.75h-63.75v-74h63.75v-54.5c0-63.25 38.75-97.75 95.25-97.75 27 0 50.25 2 57 3z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="384" height="448"
+                                             viewBox="0 0 384 448">
+                                            <title></title>
+                                            <g id="icomoon-ignore">
+                                            </g>
+                                            <path d="M384 224c0 106-86 192-192 192-19 0-37-2.75-54.5-8 7.25-11.5 15.5-26.25 19.5-41 0 0 2.25-8.5 13.5-52.75 6.5 12.75 26 24 46.75 24 61.75 0 103.75-56.25 103.75-131.75 0-56.75-48.25-110-121.75-110-91 0-137 65.5-137 120 0 33 12.5 62.5 39.25 73.5 4.25 1.75 8.25 0 9.5-5 1-3.25 3-11.75 4-15.25 1.25-5 0.75-6.5-2.75-10.75-7.75-9.25-12.75-21-12.75-37.75 0-48.5 36.25-92 94.5-92 51.5 0 80 31.5 80 73.75 0 55.25-24.5 102-61 102-20 0-35-16.5-30.25-37 5.75-24.25 17-50.5 17-68 0-15.75-8.5-29-26-29-20.5 0-37 21.25-37 49.75 0 0 0 18.25 6.25 30.5-21 89-24.75 104.5-24.75 104.5-3.5 14.5-3.75 30.75-3.25 44.25-67.75-29.75-115-97.25-115-176 0-106 86-192 192-192s192 86 192 192z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+                                             viewBox="0 0 416 448">
+                                            <title></title>
+                                            <g id="icomoon-ignore">
+                                            </g>
+                                            <path d="M405 102c-11 16-24.75 30.25-40.5 41.75 0.25 3.5 0.25 7 0.25 10.5 0 106.75-81.25 229.75-229.75 229.75-45.75 0-88.25-13.25-124-36.25 6.5 0.75 12.75 1 19.5 1 37.75 0 72.5-12.75 100.25-34.5-35.5-0.75-65.25-24-75.5-56 5 0.75 10 1.25 15.25 1.25 7.25 0 14.5-1 21.25-2.75-37-7.5-64.75-40-64.75-79.25v-1c10.75 6 23.25 9.75 36.5 10.25-21.75-14.5-36-39.25-36-67.25 0-15 4-28.75 11-40.75 39.75 49 99.5 81 166.5 84.5-1.25-6-2-12.25-2-18.5 0-44.5 36-80.75 80.75-80.75 23.25 0 44.25 9.75 59 25.5 18.25-3.5 35.75-10.25 51.25-19.5-6 18.75-18.75 34.5-35.5 44.5 16.25-1.75 32-6.25 46.5-12.5z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="post animate-left" onclick='window.location = "#"'>
+                    <img src="images/content-images/post-7.jpg" alt="blog post image">
+                    <div class="post_content">
+                        <div class="post_header">
+                            <div class="header_tags">
+                                <a href="#">ART</a>
+                                <a href="#">HEALTH</a>
+                            </div>
+                            <h3 class="header_title title">Barbecue Party Tips For A Truly Amazing Event</h3>
+                            <div class="header_info">
+                                <span class="header_date"> June 14, 2015</span>
+                                <a href="#" class="header_author">by Author Doe</a>
+                            </div>
+                        </div>
+                        <p class="post_text">
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                            unknown printer took.
+                        </p>
+                        <div class="post_info">
+                            <div class="post_comment">
+                                <a href="#">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="448" height="448"
+                                         viewBox="0 0 448 448">
+                                        <title></title>
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path d="M224 96c-104 0-192 58.5-192 128 0 37.25 25 72.75 68.25 97.25l21.75 12.5-6.75 24c-4.75 17.75-11 31.5-17.5 43 25.25-10.5 48.25-24.75 68.75-42.75l10.75-9.5 14.25 1.5c10.75 1.25 21.75 2 32.5 2 104 0 192-58.5 192-128s-88-128-192-128zM448 224c0 88.5-100.25 160-224 160-12.25 0-24.5-0.75-36.25-2-32.75 29-71.75 49.5-115 60.5-9 2.5-18.75 4.25-28.5 5.5h-1.25c-5 0-9.5-4-10.75-9.5v-0.25c-1.25-6.25 3-10 6.75-14.5 15.75-17.75 33.75-32.75 45.5-74.5-51.5-29.25-84.5-74.5-84.5-125.25 0-88.5 100.25-160 224-160v0c123.75 0 224 71.5 224 160z"></path>
+                                    </svg>
+                                    24
+                                </a>
+                            </div>
+                            <ul class="post_socials">
+                                <li>Share</li>
+                                <li>
+                                    <a href="#">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="263" height="448"
+                                             viewBox="0 0 263 448">
+                                            <title></title>
+                                            <g id="icomoon-ignore">
+                                            </g>
+                                            <path d="M239.75 3v66h-39.25c-30.75 0-36.5 14.75-36.5 36v47.25h73.25l-9.75 74h-63.5v189.75h-76.5v-189.75h-63.75v-74h63.75v-54.5c0-63.25 38.75-97.75 95.25-97.75 27 0 50.25 2 57 3z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="384" height="448"
+                                             viewBox="0 0 384 448">
+                                            <title></title>
+                                            <g id="icomoon-ignore">
+                                            </g>
+                                            <path d="M384 224c0 106-86 192-192 192-19 0-37-2.75-54.5-8 7.25-11.5 15.5-26.25 19.5-41 0 0 2.25-8.5 13.5-52.75 6.5 12.75 26 24 46.75 24 61.75 0 103.75-56.25 103.75-131.75 0-56.75-48.25-110-121.75-110-91 0-137 65.5-137 120 0 33 12.5 62.5 39.25 73.5 4.25 1.75 8.25 0 9.5-5 1-3.25 3-11.75 4-15.25 1.25-5 0.75-6.5-2.75-10.75-7.75-9.25-12.75-21-12.75-37.75 0-48.5 36.25-92 94.5-92 51.5 0 80 31.5 80 73.75 0 55.25-24.5 102-61 102-20 0-35-16.5-30.25-37 5.75-24.25 17-50.5 17-68 0-15.75-8.5-29-26-29-20.5 0-37 21.25-37 49.75 0 0 0 18.25 6.25 30.5-21 89-24.75 104.5-24.75 104.5-3.5 14.5-3.75 30.75-3.25 44.25-67.75-29.75-115-97.25-115-176 0-106 86-192 192-192s192 86 192 192z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+                                             viewBox="0 0 416 448">
+                                            <title></title>
+                                            <g id="icomoon-ignore">
+                                            </g>
+                                            <path d="M405 102c-11 16-24.75 30.25-40.5 41.75 0.25 3.5 0.25 7 0.25 10.5 0 106.75-81.25 229.75-229.75 229.75-45.75 0-88.25-13.25-124-36.25 6.5 0.75 12.75 1 19.5 1 37.75 0 72.5-12.75 100.25-34.5-35.5-0.75-65.25-24-75.5-56 5 0.75 10 1.25 15.25 1.25 7.25 0 14.5-1 21.25-2.75-37-7.5-64.75-40-64.75-79.25v-1c10.75 6 23.25 9.75 36.5 10.25-21.75-14.5-36-39.25-36-67.25 0-15 4-28.75 11-40.75 39.75 49 99.5 81 166.5 84.5-1.25-6-2-12.25-2-18.5 0-44.5 36-80.75 80.75-80.75 23.25 0 44.25 9.75 59 25.5 18.25-3.5 35.75-10.25 51.25-19.5-6 18.75-18.75 34.5-35.5 44.5 16.25-1.75 32-6.25 46.5-12.5z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="aside">
+                <div class="aside_about animate-right-first">
+                    <img src="images/content-images/avatar.jpg" alt="avatar">
+                    <h4>ABOUT ME</h4>
+                    <p>
+                        Hi! Dummy text of the printing and typesetting industry. Dummy text of the printing and
+                        typesetting industry.
+                    </p>
+                    <span>follow me on</span>
+                    <div class="about_socials">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="263" height="448"
+                                         viewBox="0 0 263 448">
+                                        <title></title>
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path d="M239.75 3v66h-39.25c-30.75 0-36.5 14.75-36.5 36v47.25h73.25l-9.75 74h-63.5v189.75h-76.5v-189.75h-63.75v-74h63.75v-54.5c0-63.25 38.75-97.75 95.25-97.75 27 0 50.25 2 57 3z"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+                                         viewBox="0 0 416 448">
+                                        <title></title>
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path d="M405 102c-11 16-24.75 30.25-40.5 41.75 0.25 3.5 0.25 7 0.25 10.5 0 106.75-81.25 229.75-229.75 229.75-45.75 0-88.25-13.25-124-36.25 6.5 0.75 12.75 1 19.5 1 37.75 0 72.5-12.75 100.25-34.5-35.5-0.75-65.25-24-75.5-56 5 0.75 10 1.25 15.25 1.25 7.25 0 14.5-1 21.25-2.75-37-7.5-64.75-40-64.75-79.25v-1c10.75 6 23.25 9.75 36.5 10.25-21.75-14.5-36-39.25-36-67.25 0-15 4-28.75 11-40.75 39.75 49 99.5 81 166.5 84.5-1.25-6-2-12.25-2-18.5 0-44.5 36-80.75 80.75-80.75 23.25 0 44.25 9.75 59 25.5 18.25-3.5 35.75-10.25 51.25-19.5-6 18.75-18.75 34.5-35.5 44.5 16.25-1.75 32-6.25 46.5-12.5z"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="384" height="448"
+                                         viewBox="0 0 384 448">
+                                        <title></title>
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path d="M87.25 156.25v247.75h-82.5v-247.75h82.5zM92.5 79.75c0.25 23.75-17.75 42.75-46.5 42.75v0h-0.5c-27.75 0-45.5-19-45.5-42.75 0-24.25 18.5-42.75 46.5-42.75 28.25 0 45.75 18.5 46 42.75zM384 262v142h-82.25v-132.5c0-33.25-12-56-41.75-56-22.75 0-36.25 15.25-42.25 30-2 5.5-2.75 12.75-2.75 20.25v138.25h-82.25c1-224.5 0-247.75 0-247.75h82.25v36h-0.5c10.75-17 30.25-41.75 74.75-41.75 54.25 0 94.75 35.5 94.75 111.5z"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="384" height="448"
+                                         viewBox="0 0 384 448">
+                                        <title></title>
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path d="M256 224c0-35.25-28.75-64-64-64s-64 28.75-64 64 28.75 64 64 64 64-28.75 64-64zM290.5 224c0 54.5-44 98.5-98.5 98.5s-98.5-44-98.5-98.5 44-98.5 98.5-98.5 98.5 44 98.5 98.5zM317.5 121.5c0 12.75-10.25 23-23 23s-23-10.25-23-23 10.25-23 23-23 23 10.25 23 23zM192 66.5c-28 0-88-2.25-113.25 7.75-8.75 3.5-15.25 7.75-22 14.5s-11 13.25-14.5 22c-10 25.25-7.75 85.25-7.75 113.25s-2.25 88 7.75 113.25c3.5 8.75 7.75 15.25 14.5 22s13.25 11 22 14.5c25.25 10 85.25 7.75 113.25 7.75s88 2.25 113.25-7.75c8.75-3.5 15.25-7.75 22-14.5s11-13.25 14.5-22c10-25.25 7.75-85.25 7.75-113.25s2.25-88-7.75-113.25c-3.5-8.75-7.75-15.25-14.5-22s-13.25-11-22-14.5c-25.25-10-85.25-7.75-113.25-7.75zM384 224c0 26.5 0.25 52.75-1.25 79.25-1.5 30.75-8.5 58-31 80.5s-49.75 29.5-80.5 31c-26.5 1.5-52.75 1.25-79.25 1.25s-52.75 0.25-79.25-1.25c-30.75-1.5-58-8.5-80.5-31s-29.5-49.75-31-80.5c-1.5-26.5-1.25-52.75-1.25-79.25s-0.25-52.75 1.25-79.25c1.5-30.75 8.5-58 31-80.5s49.75-29.5 80.5-31c26.5-1.5 52.75-1.25 79.25-1.25s52.75-0.25 79.25 1.25c30.75 1.5 58 8.5 80.5 31s29.5 49.75 31 80.5c1.5 26.5 1.25 52.75 1.25 79.25z"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="576" height="448"
+                                         viewBox="0 0 576 448">
+                                        <title></title>
+                                        <g id="icomoon-ignore">
+                                        </g>
+                                        <path d="M359.25 228.25c0 104.75-70.25 179-176 179-101.25 0-183.25-82-183.25-183.25s82-183.25 183.25-183.25c49.5 0 90.75 18 122.75 48l-49.75 47.75c-13.5-13-37.25-28.25-73-28.25-62.5 0-113.5 51.75-113.5 115.75s51 115.75 113.5 115.75c72.5 0 99.75-52.25 104-79h-104v-63h173c1.75 9.25 3 18.5 3 30.5zM576 197.75v52.5h-52.25v52.25h-52.5v-52.25h-52.25v-52.5h52.25v-52.25h52.5v52.25h52.25z"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="aside_subscribe animate-right">
+                    <h4>NEWSLETTER</h4>
+                    <form action="#">
+                        <input type="text" placeholder="Your email address">
+                        <button type="submit">SUBSCRIBE</button>
+                    </form>
+                </div>
+                <div class="aside_follow animate-right" onclick='window.location = "#"'>
+                    <h4>FOLLOW@NOEMI.THEME</h4>
+                    <div class="follow_img">
+                        <img src="images/content-images/follow-min-1.jpg" alt="gallery images small preview">
+                        <img src="images/content-images/follow-min-2.jpg" alt="gallery images small preview">
+                        <img src="images/content-images/follow-min-3.jpg" alt="gallery images small preview">
+                        <img src="images/content-images/follow-min-4.jpg" alt="gallery images small preview">
+                        <img src="images/content-images/follow-min-5.jpg" alt="gallery images small preview">
+                        <img src="images/content-images/follow-min-6.jpg" alt="gallery images small preview">
+                        <img src="images/content-images/follow-min-7.jpg" alt="gallery images small preview">
+                        <img src="images/content-images/follow-min-8.jpg" alt="gallery images small preview">
+                        <img src="images/content-images/follow-min-9.jpg" alt="gallery images small preview">
+                    </div>
+                </div>
+                <div class="aside_categories animate-right">
+                    <h4>CATEGORIES</h4>
+                    <ul>
+                        <li><a href="#">Beauty<span>12</span></a></li>
+                        <li><a href="#">Health<span>4</span></a></li>
+                        <li><a href="#">Lifestyle<span>145</span></a></li>
+                        <li><a href="#">Music<span>28</span></a></li>
+                        <li><a href="#">Sport<span>62</span></a></li>
+                        <li><a href="#">Yoga<span>8</span></a></li>
+                    </ul>
+                </div>
+                <div class="aside_recent-posts animate-right">
+                    <h4>RECENT POSTS</h4>
+                    <div class="aside_post" onclick='window.location = "#"'>
+                        <div>
+                            <img src="images/content-images/post-min-1.jpg" alt="aside preview post image">
+                        </div>
+                        <div>
+                            <span>June 14, 2015</span>
+                            <h5>LOREM IPSUM RIGHT NOW</h5>
+                        </div>
+                    </div>
+                    <div class="aside_post" onclick='window.location = "#"'>
+                        <div>
+                            <img src="images/content-images/post-min-2.jpg" alt="aside preview post image">
+                        </div>
+                        <div>
+                            <span>June 14, 2015</span>
+                            <h5>LOREM IPSUM AVAILABLE RIGHT NOW</h5>
+                        </div>
+                    </div>
+                    <div class="aside_post" onclick='window.location = "#"'>
+                        <div>
+                            <img src="images/content-images/post-min-3.jpg" alt="aside preview post image">
+                        </div>
+                        <div>
+                            <span>June 14, 2015</span>
+                            <h5>LOREM IPSUM NOW</h5>
+                        </div>
+                    </div>
+                    <div class="aside_post" onclick='window.location = "#"'>
+                        <div>
+                            <img src="images/content-images/post-min-4.jpg" alt="aside preview post image">
+                        </div>
+                        <div>
+                            <span>June 14, 2015</span>
+                            <h5>LOREM IPSUM RIGHT AVAILABLE</h5>
+                        </div>
+                    </div>
+                    <div class="aside_post" onclick='window.location = "#"'>
+                        <div>
+                            <img src="images/content-images/post-min-5.jpg" alt="aside preview post image">
+                        </div>
+                        <div>
+                            <span>June 14, 2015</span>
+                            <h5>LOREM IPSUM</h5>
+                        </div>
+                    </div>
+                    <div class="search-btn">
+                        <input type="text" placeholder="Search...">
+                        <button type="submit">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="416" height="448" fill="#fff"
+                                 viewBox="0 0 416 448">
+                                <title></title>
+                                <g id="icomoon-ignore">
+                                </g>
+                                <path d="M288 208c0-61.75-50.25-112-112-112s-112 50.25-112 112 50.25 112 112 112 112-50.25 112-112zM416 416c0 17.5-14.5 32-32 32-8.5 0-16.75-3.5-22.5-9.5l-85.75-85.5c-29.25 20.25-64.25 31-99.75 31-97.25 0-176-78.75-176-176s78.75-176 176-176 176 78.75 176 176c0 35.5-10.75 70.5-31 99.75l85.75 85.75c5.75 5.75 9.25 14 9.25 22.5z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="aside_banner animate-right" onclick='window.location = "#"'>
+                    <h4>BANNER</h4>
+                    <img src="images/content-images/banner.jpg" alt="banner">
+                </div>
+                <div class="aside_facebook animate-right" id="fb-root">
+                    <h4>FIND US ON FACEBOOK</h4>
+                    <iframe name="f3e919fbb7fd59c" width="270px" height="1000px"
+                            data-testid="fb:group Facebook Social Plugin" title="fb:group Facebook Social Plugin"
+                            frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no"
+                            allow="encrypted-media"
+                            src="https://www.facebook.com/v8.0/plugins/group.php?app_id=113869198637480&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dfc0899f2ca1e08%26domain%3Ddevelopers.facebook.com%26origin%3Dhttps%253A%252F%252Fdevelopers.facebook.com%252Ffd9dbda4a16b18%26relation%3Dparent.parent&amp;container_width=734&amp;href=https%3A%2F%2Fwww.facebook.com%2Fgroups%2Fangelszp&amp;locale=ru_RU&amp;sdk=joey&amp;show_metadata=true&amp;show_social_context=true&amp;width=270"
+                            style="border: none; visibility: visible; width: 270px; height: 347px;" class=""></iframe>
+                </div>
+                <div class="aside_tags animate-right">
+                    <h4>TAGS</h4>
+                    <ul>
+                        <li><a href="#">FASHION</a></li>
+                        <li><a href="#">MUSIC</a></li>
+                        <li><a href="#">TAG</a></li>
+                        <li><a href="#">SPORT</a></li>
+                        <li><a href="#">TRAVEL</a></li>
+                        <li><a href="#">TRIP</a></li>
+                        <li><a href="#">HEALTH</a></li>
+                        <li><a href="#">LIFESTYLE</a></li>
+                        <li><a href="#">MOVIES</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="follow">
+    <div class="container-max">
+        <h4 class="follow_title">FOLLOW @CITYBLOG</h4>
+        <a href="#" class="follow_subtitle">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="384" height="448"
+                 viewBox="0 0 384 448">
+                <title></title>
+                <g id="icomoon-ignore">
+                </g>
+                <path d="M256 224c0-35.25-28.75-64-64-64s-64 28.75-64 64 28.75 64 64 64 64-28.75 64-64zM290.5 224c0 54.5-44 98.5-98.5 98.5s-98.5-44-98.5-98.5 44-98.5 98.5-98.5 98.5 44 98.5 98.5zM317.5 121.5c0 12.75-10.25 23-23 23s-23-10.25-23-23 10.25-23 23-23 23 10.25 23 23zM192 66.5c-28 0-88-2.25-113.25 7.75-8.75 3.5-15.25 7.75-22 14.5s-11 13.25-14.5 22c-10 25.25-7.75 85.25-7.75 113.25s-2.25 88 7.75 113.25c3.5 8.75 7.75 15.25 14.5 22s13.25 11 22 14.5c25.25 10 85.25 7.75 113.25 7.75s88 2.25 113.25-7.75c8.75-3.5 15.25-7.75 22-14.5s11-13.25 14.5-22c10-25.25 7.75-85.25 7.75-113.25s2.25-88-7.75-113.25c-3.5-8.75-7.75-15.25-14.5-22s-13.25-11-22-14.5c-25.25-10-85.25-7.75-113.25-7.75zM384 224c0 26.5 0.25 52.75-1.25 79.25-1.5 30.75-8.5 58-31 80.5s-49.75 29.5-80.5 31c-26.5 1.5-52.75 1.25-79.25 1.25s-52.75 0.25-79.25-1.25c-30.75-1.5-58-8.5-80.5-31s-29.5-49.75-31-80.5c-1.5-26.5-1.25-52.75-1.25-79.25s-0.25-52.75 1.25-79.25c1.5-30.75 8.5-58 31-80.5s49.75-29.5 80.5-31c26.5-1.5 52.75-1.25 79.25-1.25s52.75-0.25 79.25 1.25c30.75 1.5 58 8.5 80.5 31s29.5 49.75 31 80.5c1.5 26.5 1.25 52.75 1.25 79.25z"></path>
+            </svg>
+            instagram
+        </a>
+        <div class="follow_photos">
+            <img src="images/content-images/follow-mid-1.jpg" alt="follow photos from instagram">
+            <img src="images/content-images/follow-mid-2.jpg" alt="follow photos from instagram">
+            <img src="images/content-images/follow-mid-3.jpg" alt="follow photos from instagram">
+            <img src="images/content-images/follow-mid-4.jpg" alt="follow photos from instagram">
+            <img src="images/content-images/follow-mid-5.jpg" alt="follow photos from instagram">
+            <img src="images/content-images/follow-mid-6.jpg" alt="follow photos from instagram">
+            <img src="images/content-images/follow-mid-7.jpg" alt="follow photos from instagram">
+        </div>
+        <div class="follow_socials">
+            <ul>
+                <li>
+                    <a href="#" class="animate-bottom">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="263" height="448"
+                             viewBox="0 0 263 448">
+                            <title></title>
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path d="M239.75 3v66h-39.25c-30.75 0-36.5 14.75-36.5 36v47.25h73.25l-9.75 74h-63.5v189.75h-76.5v-189.75h-63.75v-74h63.75v-54.5c0-63.25 38.75-97.75 95.25-97.75 27 0 50.25 2 57 3z"></path>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="animate-bottom">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+                             viewBox="0 0 416 448">
+                            <title></title>
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path d="M405 102c-11 16-24.75 30.25-40.5 41.75 0.25 3.5 0.25 7 0.25 10.5 0 106.75-81.25 229.75-229.75 229.75-45.75 0-88.25-13.25-124-36.25 6.5 0.75 12.75 1 19.5 1 37.75 0 72.5-12.75 100.25-34.5-35.5-0.75-65.25-24-75.5-56 5 0.75 10 1.25 15.25 1.25 7.25 0 14.5-1 21.25-2.75-37-7.5-64.75-40-64.75-79.25v-1c10.75 6 23.25 9.75 36.5 10.25-21.75-14.5-36-39.25-36-67.25 0-15 4-28.75 11-40.75 39.75 49 99.5 81 166.5 84.5-1.25-6-2-12.25-2-18.5 0-44.5 36-80.75 80.75-80.75 23.25 0 44.25 9.75 59 25.5 18.25-3.5 35.75-10.25 51.25-19.5-6 18.75-18.75 34.5-35.5 44.5 16.25-1.75 32-6.25 46.5-12.5z"></path>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="animate-bottom">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="384" height="448"
+                             viewBox="0 0 384 448">
+                            <title></title>
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path d="M384 224c0 106-86 192-192 192-19 0-37-2.75-54.5-8 7.25-11.5 15.5-26.25 19.5-41 0 0 2.25-8.5 13.5-52.75 6.5 12.75 26 24 46.75 24 61.75 0 103.75-56.25 103.75-131.75 0-56.75-48.25-110-121.75-110-91 0-137 65.5-137 120 0 33 12.5 62.5 39.25 73.5 4.25 1.75 8.25 0 9.5-5 1-3.25 3-11.75 4-15.25 1.25-5 0.75-6.5-2.75-10.75-7.75-9.25-12.75-21-12.75-37.75 0-48.5 36.25-92 94.5-92 51.5 0 80 31.5 80 73.75 0 55.25-24.5 102-61 102-20 0-35-16.5-30.25-37 5.75-24.25 17-50.5 17-68 0-15.75-8.5-29-26-29-20.5 0-37 21.25-37 49.75 0 0 0 18.25 6.25 30.5-21 89-24.75 104.5-24.75 104.5-3.5 14.5-3.75 30.75-3.25 44.25-67.75-29.75-115-97.25-115-176 0-106 86-192 192-192s192 86 192 192z"></path>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="animate-bottom">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="384" height="448"
+                             viewBox="0 0 384 448">
+                            <title></title>
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path d="M87.25 156.25v247.75h-82.5v-247.75h82.5zM92.5 79.75c0.25 23.75-17.75 42.75-46.5 42.75v0h-0.5c-27.75 0-45.5-19-45.5-42.75 0-24.25 18.5-42.75 46.5-42.75 28.25 0 45.75 18.5 46 42.75zM384 262v142h-82.25v-132.5c0-33.25-12-56-41.75-56-22.75 0-36.25 15.25-42.25 30-2 5.5-2.75 12.75-2.75 20.25v138.25h-82.25c1-224.5 0-247.75 0-247.75h82.25v36h-0.5c10.75-17 30.25-41.75 74.75-41.75 54.25 0 94.75 35.5 94.75 111.5z"></path>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="animate-bottom">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="384" height="448"
+                             viewBox="0 0 384 448">
+                            <title></title>
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path d="M256 224c0-35.25-28.75-64-64-64s-64 28.75-64 64 28.75 64 64 64 64-28.75 64-64zM290.5 224c0 54.5-44 98.5-98.5 98.5s-98.5-44-98.5-98.5 44-98.5 98.5-98.5 98.5 44 98.5 98.5zM317.5 121.5c0 12.75-10.25 23-23 23s-23-10.25-23-23 10.25-23 23-23 23 10.25 23 23zM192 66.5c-28 0-88-2.25-113.25 7.75-8.75 3.5-15.25 7.75-22 14.5s-11 13.25-14.5 22c-10 25.25-7.75 85.25-7.75 113.25s-2.25 88 7.75 113.25c3.5 8.75 7.75 15.25 14.5 22s13.25 11 22 14.5c25.25 10 85.25 7.75 113.25 7.75s88 2.25 113.25-7.75c8.75-3.5 15.25-7.75 22-14.5s11-13.25 14.5-22c10-25.25 7.75-85.25 7.75-113.25s2.25-88-7.75-113.25c-3.5-8.75-7.75-15.25-14.5-22s-13.25-11-22-14.5c-25.25-10-85.25-7.75-113.25-7.75zM384 224c0 26.5 0.25 52.75-1.25 79.25-1.5 30.75-8.5 58-31 80.5s-49.75 29.5-80.5 31c-26.5 1.5-52.75 1.25-79.25 1.25s-52.75 0.25-79.25-1.25c-30.75-1.5-58-8.5-80.5-31s-29.5-49.75-31-80.5c-1.5-26.5-1.25-52.75-1.25-79.25s-0.25-52.75 1.25-79.25c1.5-30.75 8.5-58 31-80.5s49.75-29.5 80.5-31c26.5-1.5 52.75-1.25 79.25-1.25s52.75-0.25 79.25 1.25c30.75 1.5 58 8.5 80.5 31s29.5 49.75 31 80.5c1.5 26.5 1.25 52.75 1.25 79.25z"></path>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="animate-bottom">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="576" height="448"
+                             viewBox="0 0 576 448">
+                            <title></title>
+                            <g id="icomoon-ignore">
+                            </g>
+                            <path d="M359.25 228.25c0 104.75-70.25 179-176 179-101.25 0-183.25-82-183.25-183.25s82-183.25 183.25-183.25c49.5 0 90.75 18 122.75 48l-49.75 47.75c-13.5-13-37.25-28.25-73-28.25-62.5 0-113.5 51.75-113.5 115.75s51 115.75 113.5 115.75c72.5 0 99.75-52.25 104-79h-104v-63h173c1.75 9.25 3 18.5 3 30.5zM576 197.75v52.5h-52.25v52.25h-52.5v-52.25h-52.25v-52.5h52.25v-52.25h52.5v52.25h52.25z"></path>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <a href="#home" class="footer_btn">on top</a>
+    <p class="footer_copy">
+        Copyright © 2009–2016 City Blog LLC.
+    </p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

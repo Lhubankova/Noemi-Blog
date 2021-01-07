@@ -1,0 +1,256 @@
+@media (max-width: 1200px) {
+  .post-title {
+    font-size: 16px;
+  }
+
+  .introduction {
+    .cards_wrapper {
+      .card {
+        &_content {
+          max-width: 280px;
+          padding: 10px;
+          bottom: 60px;
+        }
+
+        &_tags {
+          margin-bottom: 10px;
+        }
+
+        &_title {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1140px) {
+  .content {
+    margin: 150px 0 20px;
+
+    //@nastya Если используем BEM методологию, то надо два __ для статичных вещей, или два -- для изменяющихся (это если джс меняет свойства твоих элементов)
+    &_wrapper {
+      flex-direction: column;
+      align-items: center;
+
+      .posts-list {
+        .post {
+          max-width: 95%;
+
+          &_info {
+            &::after {
+              max-width: 325px;
+            }
+          }
+        }
+      }
+
+      .aside {
+        order: -1;
+        max-width: 100%;
+        margin-bottom: 70px;
+
+        &_about {
+          position: relative;
+
+          img {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+          }
+
+          h4 {
+            margin-top: 120px;
+          }
+        }
+
+        &_follow {
+          display: none;
+        }
+
+        &_categories {
+          display: none;
+        }
+
+        &_recent-posts {
+          display: none;
+        }
+
+        &_banner {
+          display: none;
+        }
+
+        &_facebook {
+          display: none;
+        }
+
+        &_tags {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .introduction {
+    .cards_wrapper {
+      flex-direction: column;
+
+      .card {
+        max-width: 100%;
+        background-size: cover;
+        margin: 0 0 20px;
+
+        &_content {
+          max-width: 80%;
+          bottom: 35px;
+        }
+
+        &_tags {
+          margin-bottom: 20px;
+        }
+
+        &_title {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+  .follow {
+    &_photos {
+      img {
+        max-width: 150px;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .content {
+    &_wrapper {
+      .posts-list {
+        .post {
+          max-width: 100%;
+
+          &_info {
+            padding-top: 40px;
+            padding-bottom: 20px;
+
+            &::after {
+              max-width: 360px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    &_logo {
+      margin: 60px 0 0;
+    }
+
+    &_socials {
+      display: none;
+    }
+
+    .menu-toggle {
+      top: 20px;
+      left: 15px;
+    }
+  }
+
+  .content {
+    &_wrapper {
+      .posts-list {
+        .post {
+          img {
+            max-width: 320px;
+            object-fit: contain;
+          }
+
+          &_content {
+            max-width: 380px;
+          }
+
+          &_header {
+            padding: 15px 10px 10px 60px;
+          }
+
+          &_text {
+            margin-left: 70px;
+            padding-bottom: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  .follow {
+    &_photos {
+      img {
+        max-width: 100px;
+      }
+    }
+
+    &_socials {
+      li + li {
+        margin-left: 25px;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .content {
+    &_wrapper {
+      .posts-list {
+        .post {
+          flex-direction: column;
+          margin-bottom: 50px;
+
+          img {
+            max-width: 100%;
+          }
+
+          &_content {
+            max-width: 100%;
+            margin-left: 0;
+            margin-top: 30px;
+          }
+
+          &_text {
+            margin-bottom: 0;
+            padding-left: 0;
+
+            &::after {
+              left: 0;
+            }
+          }
+
+          &_info {
+            padding-left: 0;
+
+            &::after {
+              max-width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .follow {
+    &_photos {
+      img {
+        max-width: 80px;
+      }
+    }
+  }
+}
