@@ -28,7 +28,6 @@
   .content {
     margin: 150px 0 20px;
 
-    //@nastya Если используем BEM методологию, то надо два __ для статичных вещей, или два -- для изменяющихся (это если джс меняет свойства твоих элементов)
     &_wrapper {
       flex-direction: column;
       align-items: center;
