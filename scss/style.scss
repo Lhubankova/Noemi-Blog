@@ -464,30 +464,6 @@
         }
       }
 
-      &_categories {
-        margin-bottom: 35px;
-
-        h4 {
-          @extend .aside-title;
-        }
-
-        li {
-          padding: 18px 10px 16px;
-          border-bottom: 1px solid #eaebeb;
-          @extend .tag;
-          color: $text-color;
-          text-transform: unset;
-        }
-
-        span {
-          color: $accent-color;
-          margin-left: 10px;
-          font-family: 'Raleway', sans-serif;
-          font-weight: 700;
-          font-size: 12px;
-        }
-      }
-
       &_recent-posts {
         margin-bottom: 35px;
 
@@ -548,19 +524,6 @@
         }
       }
 
-      &_banner {
-        margin-bottom: 35px;
-        cursor: pointer;
-
-        h4 {
-          @extend .aside-title;
-        }
-
-        img {
-          max-width: 270px;
-        }
-      }
-
       &_facebook {
         margin-bottom: 35px;
 
@@ -570,33 +533,6 @@
 
         iframe {
           cursor: pointer;
-        }
-      }
-
-      &_tags {
-        margin-bottom: 35px;
-
-        h4 {
-          @extend .aside-title;
-        }
-
-        ul {
-          display: flex;
-          flex-wrap: wrap;
-        }
-
-        li {
-          margin-right: 5px;
-          margin-bottom: 5px;
-          @extend .tag;
-          padding: 5px 15px;
-          border: 3px solid #eee;
-          color: $text-color;
-          transition: all .4s ease-in-out;
-
-          &:hover {
-            border-color: $accent-color;
-          }
         }
       }
     }
